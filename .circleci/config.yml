@@ -3,7 +3,7 @@ jobs:
   build:
     working_directory: ~/tmp
     docker:
-      - image: cirecle/node:7
+      - image: cirecleci/node:7
     steps:
       - checkout
       - run: npm install
